@@ -1,0 +1,286 @@
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background-color: #eef7fb;
+  color: #3d5c6b;
+  font-size: 20px;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  background-color: transparent;
+  text-align: center;
+  padding: 30px 20px 10px;
+}
+.header-title {
+  color: rgb(74, 117, 205);
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+
+}
+
+.header-subtitle{
+font-size: 1.2rem;
+color: #4b83cd;
+
+}
+
+.navbar{
+color: #1e3a8a;
+display: flex;
+justify-content: center;
+gap: 15px;
+padding: 15px;
+background-color:#ffffff;
+max-width: 500px;
+margin: 15px auto;
+box-shadow: 0 4px 15px rgb(0, 0, 0),0.06 ;
+border: 1px soild #d5e6ed;
+}
+.nav-link{
+color: #1e3a8a;
+text-decoration: none;
+font-weight: bold;
+padding: 10px 20px;
+border-radius: 8px;
+;background-color:#eef2ff;
+transition: 0.3s;
+}
+.nav-link:hover{
+background-color: #1e3a8a;
+color: #ffffff;
+}
+
+.dashbored-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+.card-summary, .card-details{
+background-color: #ffffff;
+border-radius: 25px;
+box-shadow: 8px 10px #8ba6b2  ;
+border: 1px soild #d5e6ed;
+
+}
+.card-summary h2{
+  color: #1e3a8a;
+  margin: bottom 10px;
+  margin-bottom: 15px;
+  font-size: size 1.3rem;
+}
+
+
+
+.contact-header{
+
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.main-footer a:hover{
+text-decoration: underline;
+}
+.info-text{
+font-size: 1.1rem;
+margin-bottom: 10px;
+}
+.card-summary h2{
+  color: #1e3a8a;
+  margin-bottom: 15px;
+font-size: 1.1rem;
+
+}
+
+.appoiments-item{
+background-color: #eff6ef;
+padding: 15px 20px;
+border-radius: 10px;
+}
+.appoiments-title{
+color: #1e3a8a;
+font-size: 1.2rem;
+margin-bottom: 5px;
+}
+
+.appoiments-time{
+color: #475569;
+font-size: 1.2rem;
+}
+.main-footer {
+background-color: #0f172a;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    transition:background-color  0.3s ease ;
+}
+.main-footer:hover{
+background-color: #1e293b;
+
+}
+.main-footer a{
+color: #60a5fa;
+text-decoration: none;
+font-size: bold;
+padding: 6px 12px;
+border-radius: 6px;
+}
+.main-footer a:hover {
+background-color: rgba(96, 165, 250, 0.15);
+text-decoration: underline;
+}
+.main-footer a:active{
+background-color: rgba(96, 165, 250, 0.3);
+
+}
+.nav-link.nav-login{
+background-color: #aeb7d2;
+color: #ffffff;
+
+
+
+}
+.nav-link.nav-login:hover{
+background-color: #200867;
+
+}
+
+*{
+box-sizing: border-box;
+}
+body{
+margin: 0;
+font-family: Arial, sans-serif;
+direction: rtl;
+background: #eef7fb;
+color: #3d5c6b;
+background-image:
+linear-gradient(#d9edf5 2px, transparent 2px),
+linear-gradient(90deg,#d9edf5 2px, transparent 2px);
+background-size:55px 55px ;
+}
+header{
+text-align: center;
+padding: 25px;
+}
+header h1{
+color: #4b9fc5;
+font-size: 38px;
+text-shadow: 3px 4px #b5cbd5;
+}
+main{
+width: 90%;
+max-width: 500px;
+margin: 20px auto;
+}
+
+section:first-child{
+background: white;
+padding: 30px;
+border-radius: 30px;
+box-shadow: 8px 10px #8ba6b2;
+}
+h2{
+text-align: center;
+color: #4385a7;
+font-size: 27px;
+margin-bottom: 25px;
+}
+
+.input-group{
+position: relative;
+margin-bottom: 22px;
+}
+
+.input-group input{
+width: 100%;
+height: 62px;
+padding: 15px 60px;
+border-radius: 35px;
+background: #f3f5f8;
+font-size: 18px;
+outline: none;
+box-shadow: 5px 6px #9aadb5;
+}
+.input-group input:focus{
+border-color: #5ba4c5;
+background: white;
+}
+
+.input-icon{
+position: absolute;
+right: 20px;
+top: 18px;
+}
+.show-password{
+position: absolute;
+left: 20px;
+top: 18px;
+cursor: pointer;
+}
+
+button{
+width: 100%;
+height: 62px;
+border: 0;
+border-radius: 35px;
+background: #5b9fc2;
+color: white;
+font-size: 22px;
+cursor: pointer;
+box-shadow: 6px 7px #637f8a;
+}
+
+button:hover{
+background: #438caf;
+
+}
+
+section:nth-child(2) {
+text-align: center;
+margin-top: 25px;
+}
+section:nth-child(2) a, footer a {
+color: #4385a7;
+font-weight: bold;
+text-decoration: none;
+
+}
+footer{
+text-align: center;
+padding: 20px;
+font-size: 17px;
+}
+.idx-features-grid{
+
+display: flex;
+gap: 15px;
+justify-self: center;
+flex-wrap: wrap;
+}
+.idx-feature-card{
+background: #ffffff;
+flex: 1;
+min-width: 200px;
+}
+
+.navbar, .idx-navbar, header nav{
+display: flex;
+justify-content: center;
+gap: 12px;
+margin-bottom: 25px;
+}
+
+
+.navbar a, .nav-link,.idx-nav-link, header nav a{
+  color: #1e3a8e;
+  text-decoration: none;
+border-radius: 25px;
+border: 1px soild #d5e6ed;
+
+
+}
