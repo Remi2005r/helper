@@ -1,40 +1,46 @@
+
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مساعدك الرقمي-إنشاء حساب</title>
+    <title>إنشاء حساب جديد</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-<h1>مساعدك الرقمي</h1>
-<p>انضم الينا بخطوة واحدة</p>
- </header>
- <main class="box">
-<div class="card">
-<h2>حساب جديد</h2>
-<form action="dashbored.html">
-<div class="field">
-<label >الاسم كامل</label>
-<input type="text" placeholder="ادخل اسمك" required>
-</div>
-<div class="field">
-<label >البريد الالكتروني</label>
-<input type="email" placeholder="example@gmail.com" required>
-</div>
-<div class="field">
-<label >كلمة المرور</label>
-<input type="password" placeholder="**********" required>
-</div>
-<button type="submit " class="btn">انشاء الحساب</button>
-</form>
-<div class="footer">
-    <span>لديك حساب بالفعل</span>
-    <a href="index.html">تسجيل دخول</a>
-</div>
-</div>
 
- </main>
+    <header class="main-header">
+        <h1 class="header-title">مساعدك الرقمي</h1>
+        <p class="header-subtitle">انضم إلينا بخطوة واحدة</p>
+    </header>
+
+    <main class="dashbored-container">
+        <div class="card-details">
+            <h2>حساب جديد</h2>
+            <form>
+                <div class="input-group">
+                    <label>الاسم كامل</label>
+                    <input type="text" placeholder="ادخل اسمك" required>
+                </div>
+
+                <div class="input-group">
+                    <label>البريد الالكتروني</label>
+                    <input type="email" placeholder="example@gmail.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label>كلمة المرور</label>
+                    <input type="password" placeholder="********" required>
+                </div>
+
+                <button type="submit" class="register-btn">انشاء الحساب</button>
+            </form>
+
+            <div class="form-footer">
+                لديك حساب بالفعل؟ <a href="login.html">تسجيل دخول</a>
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>
